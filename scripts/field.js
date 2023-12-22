@@ -25,10 +25,10 @@ export default class Field{
     }
     add(row){
         if(row < 3) {
-            this.el.appendChild(new Item('black').el)
+            this.el.appendChild(new Item('black', this.y, this.x).el)
         }
         if(row > 4){
-            this.el.appendChild(new Item("white").el)
+            this.el.appendChild(new Item("white", this.y, this.x).el)
         }
     }
 
