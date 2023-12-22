@@ -2,4 +2,5 @@
     width: calc(560px / 8 - 1px);
     height: calc(560px / 8);
     border: 1px solid black;
+    position: relative;
 }

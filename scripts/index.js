@@ -1,5 +1,5 @@
 import Board from './board.js';
-const board = document.getElementById("board")
+import Item from "./item.js"
 
 class Game{
     constructor() {
@@ -7,9 +7,9 @@ class Game{
     }
     start(){
         this.board = new Board();
-        this.board.elms.forEach((el) => {
-            board.appendChild(el.el);
-        })
+        for(let i = 0; i < 8; i++){
+
+        }
     }
 }
 const game = new Game();

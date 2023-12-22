@@ -1,5 +1,6 @@
 @import url("./board.css");
 @import url("./field.css");
+@import url("./item.css");
 
 *{
     margin: 0;
